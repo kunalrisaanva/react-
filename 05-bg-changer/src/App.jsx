@@ -33,6 +33,13 @@ function App() {
           >
             blue
           </button>
+          <button
+            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+            style={{ backgroundColor: "#000" }}
+            onClick={() => setColor("#000")}
+          >
+            Dark
+          </button>
         </div>
       </div>
     </div>
