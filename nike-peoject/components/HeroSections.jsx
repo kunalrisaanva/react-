@@ -7,7 +7,7 @@ function HeroSections() {
    <main className='hero container'>
 
     <div className="hero-content">
-            <h1>
+            <h1 id='heading'>
             YOUR FEET DESERVE THE BEST
             </h1>
             <p>

@@ -115,3 +115,42 @@ body{
 nav ul li {
     cursor: pointer;
 }
+
+@media (max-width : 800px  ) {
+   .navbar{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+      /* max-width: 100px; */
+      height: 72px;
+
+    }
+
+    .brand-icon {
+        height: 20px;
+    }
+   
+
+    /* .hero h1 {
+        font-weight: 800;
+        font-size: 100px;
+        line-height: 102px;
+        
+    } */
+   
+  
+
+   .hero {
+    max-width: 300px;
+    margin: 110px  auto;
+   }
+}
+
+nav ul li:hover {
+    color: #D01C28;
+}
+
+.btn:hover {
+    color: var(--gray);
+}
