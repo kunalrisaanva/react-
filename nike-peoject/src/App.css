@@ -110,3 +110,8 @@ body{
 
 }
 
+
+
+nav ul li {
+    cursor: pointer;
+}
