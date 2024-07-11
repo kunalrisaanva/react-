@@ -7,12 +7,12 @@ function App() {
   const [characterAllowed, setCharacterAllowed] = useState(false);
 
   const [Password, setPassword] = useState("");
-
+  console.log("outer");
   const passwordGenrator = 
     useCallback(() => {
       let pass = "";
       let str = "ABCDEFGHIJKLMNOPQRSTVWQYZabcdefghijklmnopqrstopqrestvwxyz";
-
+      console.log("reRun funtion");
       if (numberAllowed) str += "0123456789";
       if (characterAllowed) str += "!@#$%^&*()_+";
 
@@ -24,7 +24,7 @@ function App() {
       setPassword(pass);
     }, [length, numberAllowed, characterAllowed]);
 
-  
+   
 
   const copyPasswordToClipboard = useCallback(() => {
 
@@ -42,10 +42,6 @@ function App() {
     // use ref  
 
     const passwordRef = useRef(null)
-
-
-  
-
 
   return (
     <>
