@@ -22,8 +22,8 @@ function HeroSections() {
               <p>Also Available On</p>
 
               <div className='brand-icon'>
-                <img src="../src/assets/flipkart.png" alt="flipcart" />
-                <img src="../src/assets/amazon.png" alt="amazone" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/fir-ef23f.appspot.com/o/flipkart.png?alt=media&token=352cbfbd-0d29-491d-8e8f-ebbb5ae6be06" alt="flipcart" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/fir-ef23f.appspot.com/o/amazon.png?alt=media&token=c6521c28-2ed5-4b4f-a1db-c15c7b9f5f3e" alt="amazone" />
               </div>
             </div>
     </div>
